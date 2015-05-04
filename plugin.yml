@@ -1,0 +1,10 @@
+name: mobspawners
+main: com.craftilandia.mobspawners.Main
+version: 1.0
+commands:
+    setspawner:
+        usage: /<command>
+        description: set the mob on the spawner.
+    getspawner:
+        usage: /<command>
+        description: get a mob spawner.
