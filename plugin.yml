@@ -1,10 +1,16 @@
-name: mobspawners
 main: com.craftilandia.mobspawners.Main
-version: 1.0
+name: Mob_Spawners
+version: 2.0
+author: raton023
+website: http://dev.bukkit.org/bukkit-plugins/mobs-spawners/
 commands:
-    setspawner:
-        usage: /<command>
-        description: set the mob on the spawner.
     getspawner:
-        usage: /<command>
-        description: get a mob spawner.
+        usage: /getspawner <mob>
+        description: get the spawn of a mob type.
+permissions:
+    mobspawners.getdrop:
+        description: permission to get the spawner when breaking a spawner.
+        default: true
+    mobspawners.getspawner:
+        description: permission to use /getspawner command.
+        default: op
